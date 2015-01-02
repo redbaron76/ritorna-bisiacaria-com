@@ -1,0 +1,154 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+	height: 100%;
+	width: 100%;
+
+	font-family: 'cooper_hewittbook', Tahoma, sans-serif;
+	font-size: 14px;
+
+	overflow-x: hidden;
+}
+
+.social {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.social > a {
+	color: black;
+}
+
+.device {
+	position: relative;
+	top: 50px;
+	left: 50%;
+	display: block;
+	width: 910px;
+	height: 1214px;
+	margin-left: -455px;
+	background: url('../img/iphone_bg.jpg') center bottom no-repeat;
+}
+
+.wrapper {
+	position: absolute;
+	top: 236px;
+	left: 250px;
+	width: 481px;
+	height: 693px;
+	margin: 0 auto;
+	background-color: #eee;
+	overflow: hidden;
+}
+
+.logo {
+	text-align: center;
+	background: #f4a816;
+	padding: 20px 0;
+}
+
+.logo > h1 {
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+
+h2 {
+	text-align: center;
+	background-color: #363844;
+	color: white;
+	margin: 0;
+	padding: 12px 0;
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
+form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.asterisk {
+	top: 0 !important;
+	right: 0 !important;
+	vertical-align: top;
+}
+
+strong > .asterisk {
+	top: 18px !important;
+}
+
+label, strong {
+	font-weight: 900;
+	font-size: 16px;
+}
+
+li { margin-top: 10px !important; }
+
+input[type=text], input[type=email] {
+	font-size: 14px;
+}
+
+input[type=radio] + label {
+	margin-left: 5px;
+}
+
+.input-group {
+	margin-top: 10px;
+}
+
+.btn {
+	width: 96% !important;
+	margin: 0 !important;
+	padding: 10px 0;
+	border: none;
+	display: block;
+	background-color: #f4a816;
+	font-size: 16px;
+}
+
+#mc_embed_signup {
+	padding-bottom: 0;
+}
+
+#mce-responses {
+	margin: 0 !important;
+	padding: 0 !important;
+	float: none !important;
+	width: 100% !important;
+}
+
+.response {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+	margin-bottom: 10px !important;
+	font-size: 12px;
+}
+
+@font-face {
+    font-family: 'cooper_hewittbook';
+    src: url('../fonts/cooperhewitt-book-webfont.eot');
+    src: url('../fonts/cooperhewitt-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cooperhewitt-book-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-book-webfont.woff') format('woff'),
+         url('../fonts/cooperhewitt-book-webfont.ttf') format('truetype'),
+         url('../fonts/cooperhewitt-book-webfont.svg#cooper_hewittbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
