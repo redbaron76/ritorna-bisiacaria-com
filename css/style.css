@@ -50,10 +50,11 @@ body {
 	height: 693px;
 	margin: 0 auto;
 	background-color: #eee;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .logo {
+	position: relative;
 	text-align: center;
 	background: #f4a816;
 	padding: 20px 0;
@@ -64,17 +65,32 @@ body {
 	margin: 10px 0 0 0;
 }
 
+.logo > h3 {
+	font-size: 20px;
+	text-align: center;
+	margin: 20px 0 10px 0;
+}
+
+.logo a {
+	color: #000000;
+}
+
+.logo h3 > span {
+	padding-left: 75px;
+}
+
+.logo .fb-like {
+	position: absolute;
+	left: 92px;
+	bottom: 31px;
+}
+
 h2 {
 	text-align: center;
 	background-color: #363844;
 	color: white;
 	margin: 0;
 	padding: 12px 0;
-}
-
-h3 {
-	font-size: 20px;
-	text-align: center;
 }
 
 form {
